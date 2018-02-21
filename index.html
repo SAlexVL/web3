@@ -1,46 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Flex CSS</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
+	 <html lang="en">
+    <head>
 
-  <body>
-    <div class="main">
-
-      <section class="container">
-         
-              <div class="container-image">
-                <img src="img/header-img.jpg" alt="header-img">
-              </div>
-
-              <div class="container-text">
-                <h1 class="container-text__title">Истинная королева</h1>
-                <div class="container-text__subtitle">Екатерина Арагонская</div>
-                <p class="container-text__descr">«Екатерина Арагонская» — это первый роман популярного автора и известного историка Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>  
-                <div class="container-text__price">399 р.</div>
-                <div class="container-text__buttons">
-                  <button class="button">Купить</button>
-                  <button class="button button-o">Узнать подробнее</button> 
-                </div>
-                <!-- /.header-text__buttons --> 
-              </div>
-              <!-- /.header-text -->
-      
-         </section>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+        <title>Верстка на Bootstrap 4</title>
+    
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+    
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+			<header class="header">
+				<div class="container">
+          <div class="row align-items-center">
+          	<div class="col-12 col-md-5">
+          		<img src="img/header-img.jpg" alt="header-img">
+          	</div>
+          	<!-- /.col-5 -->
+          	<div class="col-12 col-md-7">
+          		<div class="header-text">
+          			<h1 class="header-text__title">Истинная королева</h1>
+          			<div class="header-text__subtitle">Екатерина Арагонская</div>
+								<p class="header-text__descr">«Екатерина Арагонская» — это первый роман популярного автора и известного историка Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>	
+								<div class="header-text__price">399 р.</div>
+								<div class="header-text__buttons">
+									<button class="button">Купить</button>
+									<button class="button button-o">Узнать подробнее</button>	
+								</div>
+								<!-- /.header-text__buttons -->	
+          		</div>
+          		<!-- /.header-text -->
+          	</div>
+          	<!-- /.col-7 -->
+          </div>
+          <!-- /.row -->
+        </div>
         <!-- /.container -->
+			</header>
 
-        <section class="features-1">
-          
+      <section class="features">
+        <div class="container">
           <h2 class="section-title">
-              Доставка и оплата
+            Доставка и оплата
           </h2>
-
-          <div class="features">
-
-            <div class="features-item">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
               <div class="features__img">
                 <img src="img/features/shopping-cart.png" alt="shopping-cart">
               </div>
@@ -48,9 +58,8 @@
                 Бесплатная доставка <br> 381 магазин в сети
               </div>
             </div>
-            <!-- /.features-item1 -->
-
-            <div class="features-item">
+            <!-- /.col-3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
               <div class="features__img">
                 <img src="img/features/credit-card.png" alt="credit-card">
               </div>
@@ -58,9 +67,8 @@
                 Оплата онлайн <br> или наличными при получении
               </div>
             </div>
-            <!-- /.features-item2 -->
-
-            <div class="features-item">
+            <!-- /.col-3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
               <div class="features__img">
                 <img src="img/features/shipped2.png" alt="shipped">
               </div>
@@ -68,81 +76,90 @@
                 Курьерская доставка <br> от 2000р. - бесплатно
               </div>
             </div>
-            <!-- /.features-item3 -->
-
-            <div class="features-item">
+            <!-- /.col-3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
               <div class="features__img">
                 <img src="img/features/mailbox.png" alt="mailbox">
               </div>
               <div class="features__text">
                 Почтой России - <br> в любую точку страны
+
               </div>
             </div>
-            <!-- /.features-item4 -->
-
+            <!-- /.col-3 -->
           </div>
-          <!-- /.features -->
+        </div>
+        <!-- /.container -->
+      </section>
 
-        </section>
-        <!-- /.features-1 -->
-    
-      <section class="photo-1">
-         
+      <section class="photo">
+        <div class="container">
           <h2 class="section-title">
             Кто уже купил эту книгу
           </h2>
+          <div class="row">
 
-            <div class="photo">
-
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="photo__img">
                 <img src="img/photo/photo1.png" alt="photo1">
               </div>
               <!-- /.photo__img -->
+            </div>
 
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="photo__img">
                 <img src="img/photo/photo2.png" alt="photo2">
               </div>
               <!-- /.photo__img -->
+            </div>
 
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="photo__img">
                 <img src="img/photo/photo3.png" alt="photo3">
               </div>
               <!-- /.photo__img -->
+            </div>
 
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="photo__img">
                 <img src="img/photo/photo4.png" alt="photo4">
               </div>
               <!-- /.photo__img -->
+            </div>
 
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="photo__img">
                 <img src="img/photo/photo5.png" alt="photo5">
               </div>
               <!-- /.photo__img -->
+            </div>
 
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="photo__img">
                 <img src="img/photo/photo6.png" alt="photo6">
               </div>
               <!-- /.photo__img -->
+            </div>
 
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="photo__img">
                 <img src="img/photo/photo7.png" alt="photo7">
               </div>
               <!-- /.photo__img -->
-   
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="photo__img">
                 <img src="img/photo/photo8.png" alt="photo8">
               </div>
               <!-- /.photo__img -->
-
             </div>
-            <!-- /.photo -->
 
-       </section>
-      <!-- /.photo-1 -->
-
-    </div>
-    <!-- /.main -->
- 
-   </body>
-
-</html>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.photo -->
+    </body>
+  </html>
